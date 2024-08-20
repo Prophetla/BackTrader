@@ -14,7 +14,7 @@ def load_data():
 
     # 加载数据到Backtrader中
     start_date = datetime.datetime(2020, 1, 1, 1, 0, 0)
-    end_date = datetime.datetime(2020, 1, 1, 2, 0, 0)
+    end_date = datetime.datetime(2020, 1, 1, 6, 0, 0)
 
     data = bt.feeds.PandasData(dataname=dataframe, fromdate=start_date, todate=end_date)
     return data
