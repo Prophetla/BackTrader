@@ -59,7 +59,7 @@ def initialize_backtest():
 
     # 添加策略
     cerebro.addstrategy(SystemOne)
-    cerebro.addstrategy(PriceClusterStrategy)
+    # cerebro.addstrategy(PriceClusterStrategy)
 
     # 配置 Broker
     configure_broker(cerebro)
